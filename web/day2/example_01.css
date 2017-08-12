@@ -1,0 +1,33 @@
+body {
+    font-family: Tahoma;
+    font-size: 11px;
+}
+ul {
+    font-family: Consolas;
+}
+.page {
+    max-width: 615px;
+    margin: auto;
+    box-shadow: 1px 1px 5px #aaa;
+    padding: 50px 0px 50px 0px;
+    text-align: justify;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.indent {
+    text-indent: 11px;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.underline {
+    text-decoration: underline;
+}
+img {
+    width: 100%;
+}
