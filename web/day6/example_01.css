@@ -1,0 +1,92 @@
+.container{
+	width: 100%;
+	margin: auto;
+}
+/* --- Header --- */
+header{
+	width: 70%;
+	margin: auto;
+}
+.imglogo{
+	width: 100px;
+	height: auto;
+	float: left;
+}
+h1 {
+    float: left;
+    margin-top: 20px;
+	margin-left: 15px;
+    font-size: 45px;
+}
+nav{
+	float: right;
+	margin-left: 30px;
+}
+header nav li{
+	display: inline-block;
+	color: steelblue;
+    padding: 12px 20px ;
+    border-right: 1px solid black;
+	font-size: 20px;
+	line-height: 30px;
+}
+header nav li:last-child{
+    border-right: none;
+}
+/* --- End Header --- */
+
+/*  Main  */
+main{
+	clear: both;
+	padding-top: 20px;
+}
+.quote{
+	background-color: steelblue;
+	color: white;
+	border: 2px solid black;
+}
+.quote h4{
+	text-align: center;
+	font-size: 25px;
+	padding-top: 15px;
+}
+.quote p{
+	text-align: right;
+	margin-right: 220px;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+.content {
+    width: 100%;
+    margin: 20px auto;
+}
+section {
+	padding-left: 7%;
+	width: 22%;
+	padding-right: 4%;
+    color: black;
+    font-size: 15px;
+    float: left;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 25px;
+}
+.title {
+    color: steelblue;
+    font-size: 22px;
+}
+.img-title {
+	width: 240px;
+    margin-top: 20px;
+}
+/* --- End Main --- */
+
+/* Footer */
+footer {
+    color: white;
+    background: steelblue;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+	border: 2px solid black;
+}
+/* --- End Footer --- */
