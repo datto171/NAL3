@@ -1,0 +1,96 @@
+/* --- Header --- */
+header{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	margin: auto;
+    background: #668cff;
+	border: 2px solid black;
+		float: left;
+}
+.logo{
+	/* Có thể gán cố định chiều cao ở đây và bỏ float: left ở header{}*/
+}
+.imglogo{
+	width: 80px;
+	height: auto;
+	float: left;
+	margin-left: 15%;
+}
+header h2{
+	float: left;
+}
+header ul{
+	float: right;
+	margin-right: 10%;
+}
+header li{
+	display: inline-block;
+	padding: 12px 20px ;
+    border-right: 1px solid black;
+	font-size: 20px;
+	line-height: 20px;
+}
+header li:last-child{
+    border-right: none;
+}
+header a{
+	color: black;
+}
+/* --- End Header --- */
+
+/*  Main  */
+main{
+	clear: both;
+	padding-top: 20px;
+}
+.quote{
+	background-color: steelblue;
+	color: white;
+	border: 2px solid black;
+}
+.quote h4{
+	text-align: center;
+	font-size: 25px;
+	padding-top: 15px;
+}
+.quote p{
+	text-align: right;
+	margin-right: 220px;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+.content {
+    width: 90%;
+    margin: 20px auto;
+}
+section {
+	padding-left: 6%;
+	width: 20%;
+	padding-right: 6%;
+    color: black;
+    font-size: 15px;
+    float: left;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 25px;
+}
+.title {
+    color: steelblue;
+    font-size: 22px;
+}
+.img-title {
+	width: 240px;
+    margin-top: 20px;
+}
+/* --- End Main --- */
+
+/* Footer */
+footer {
+    color: white;
+    background: steelblue;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+	border: 2px solid black;
+}
+/* --- End Footer --- */
